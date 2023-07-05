@@ -1,0 +1,151 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 70%;
+    overflow: hidden;
+    background-color:lightcyan;
+  }
+  li {
+    float:left;
+  }
+  li a {
+    display: block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: fuchsia;
+  }
+  /* input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } */
+  
+  
+  
+  
+   /* {
+    box-sizing: border-box;
+  }
+   */
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  .row {
+    display: -ms-flexbox; 
+    display: flex;
+    /* -ms-flex-wrap: wrap; 
+    flex-wrap:unset; */
+    /* padding: 12 16px; */
+  }
+  
+  
+  .column {
+    -ms-flex: 33.33%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+   
+  }
+  
+  .column img {
+    margin-top: 18px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 40%;
+      max-width: 70%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 0%;
+      flex: 10%;
+      max-width: 80%;
+    }
+  }
+  
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row-reverse;
+   }
+   img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 10px;
+   }
+   img:hover{
+    width: 500px;
+    height: 500px;
+  
+  
+   }
+   .ab{
+    content: justify;
+    align-content: space-around;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: smaller;
+    padding: -20px;
+    border: 3px solid black;
+    margin-right: 10px;
+    height: 470px;
+    flex-wrap: wrap;
+  }
+  .bear{
+    /* background-color: cyan; */
+    font-family: cursive;
+  }
+  .text{
+    background-color: burlywood;
+    font-family: fantasy;
+    /* font-size: larger; */
+  }
+  .details {
+    font-size: x-large;
+    box-sizing: border-box;
+    background-color:lavender;
+  }
+
+
